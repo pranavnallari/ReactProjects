@@ -1,9 +1,9 @@
 import './App.css'
-import SlotMain from './SlotMachine/slotMain'
+import Main from './ShoppingList/Main'
 export default function App() {
   return (
     <div>
-      <SlotMain />
+      <Main/>
     </div>
   )
 }
