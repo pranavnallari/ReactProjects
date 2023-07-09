@@ -8,7 +8,7 @@ export default function List({ items }) {
         <ul>
 
             {items.map(i => 
-                <ShoppingListItem item={i.item} quantity={i.quantity} completed={i.completed} key={i.id}/>
+             <ShoppingListItem item={i.item} quantity={i.quantity} completed={i.completed} key={i.id}/>
             )}
         </ul>
     </div>

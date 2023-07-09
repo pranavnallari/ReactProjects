@@ -1,5 +1,5 @@
 import './App.css'
-import Main from './ShoppingList/Main'
+import Main from './RentalProperty/Main'
 export default function App() {
   return (
     <div>
