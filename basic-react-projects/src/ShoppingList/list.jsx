@@ -1,5 +1,5 @@
 import './list.css'
-
+import ShoppingListItem from './ShoppingListItem'
 
 export default function List({ items }) {
 
@@ -8,9 +8,7 @@ export default function List({ items }) {
         <ul>
 
             {items.map(i => 
-            <h3>
-                <li style={{"color":!i.completed?"white":"black","textDecoration":i.completed?"line-through":"none"}}>{i.item} - {i.quantity}</li>
-            </h3>
+                <ShoppingListItem item={i.item} quantity={i.quantity} completed={i.completed} key={i.id}/>
             )}
         </ul>
     </div>

@@ -1,10 +1,10 @@
 import List from './list'
 
 const data = [
-    { item: 'eggs', quantity: 12, completed: false },
-    { item: 'milk', quantity: 3, completed: true },
-    { item: 'bread', quantity: 36, completed: false },
-    { item: 'butter', quantity: 3, completed: false }
+    { id:1,item: 'eggs', quantity: 12, completed: false },
+    { id:2,item: 'milk', quantity: 3, completed: true },
+    { id:3,item: 'bread', quantity: 36, completed: false },
+    { id:4,item: 'butter', quantity: 3, completed: false }
 ]
 export default function Main() {
     return <div>
