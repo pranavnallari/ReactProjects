@@ -1,6 +1,5 @@
 import './App.css'
-import Main from './ScoreKeeper/Main'
-
+import Main from './ShoppingListForm/Main'
 export default function App() {
   return (
     <div>
